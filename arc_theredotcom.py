@@ -73,10 +73,3 @@ def LoadPack(fileName, fileLen, justChecking):
 
 
 
-    
-        
-    
-    
-
-    return 1
-
