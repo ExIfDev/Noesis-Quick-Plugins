@@ -18,10 +18,6 @@ def ChkArc(data):
     val = bs.readUInt()
     return 1 if val == 3203334145 else 0
 
-def ChkMdl(data):
-    bs  = NoeBitStream(data)
-    val = bs.readBytes(4)
-    return 1 if val == b"SOM " else 0
 
 
 def LoadPack(fileName, fileLen, justChecking):
@@ -69,6 +65,7 @@ def LoadPack(fileName, fileLen, justChecking):
         rapi.exportArchiveFile(FNAME, fdata)
 
     return 1
+
 
 
 
