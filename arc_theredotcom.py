@@ -7,9 +7,6 @@ def registerNoesisTypes():
     noesis.setHandlerTypeCheck(harc, ChkArc)
     noesis.setHandlerExtractArc(harc, LoadPack)
     
-    hmdl = noesis.register("There.com model file", ".model")
-    noesis.setHandlerTypeCheck(hmdl, ChkMdl)
-    noesis.setHandlerLoadModel(hmdl, LoadModel)    
     
 
     return 1
@@ -74,17 +71,10 @@ def LoadPack(fileName, fileLen, justChecking):
 
 
 
-def LoadModel(data,mdl_list):
-    bs = NoeBitStream(data)
-    rapi.rpgCreateContext() 
-    #rapi.rpgSetOption(noesis.RPGOPT_BIGENDIAN, 1)
-    
-    vBuf = bytearray()
-    iBuf = bytearray()
-    nBuf = bytearray()
-    uvBuf = bytearray()
+
     
         
     
     
+
     return 1
