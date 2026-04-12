@@ -122,7 +122,7 @@ def LoadPod(fileName, fileLen, justChecking):
 
 
 def LoadMdl(data, mdl_list):
-    noesis.logPopup()
+    #noesis.logPopup()
     bs = NoeBitStream(data)
     rapi.rpgCreateContext() 
     rapi.rpgSetOption(noesis.RPGOPT_SWAPHANDEDNESS, 1)#LEFT HANDED
