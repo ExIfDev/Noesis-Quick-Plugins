@@ -1,6 +1,6 @@
 # Features
 - .POD extractor
-- .SFM support
+- .SMF support
 - .RAW/.ACT support
 - Texture binding
 # Issues
