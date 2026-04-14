@@ -4,7 +4,7 @@
 - .RAW/.ACT support
 - Texture binding
 # Issues
-- some .SFM might not load
+- some .SMF might not load
 - .TIF image format is not supported by Noesis hence some models wont be textured
 
 <img width="1363" height="1352" alt="image" src="https://github.com/user-attachments/assets/420a532b-3c79-452c-8cc3-f900bb9bd172" />
